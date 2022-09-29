@@ -16,11 +16,12 @@ body {
 
 .mainheader {
     font-size: 12rem;
-    <<<<<<< HEAD padding: 2rem;
-    =======padding: 30px;
-    >>>>>>>5003cec2639d8be9174b3ab2eeb63e83cc7634d1 color: #7c826b;
+    padding: 2rem;
+    padding: 30px;
+    color: #7c826b;
     font-style: italic;
     letter-spacing: 0.5rem;
+    color: #7c826b;
 }
 
 h1 {
@@ -28,9 +29,8 @@ h1 {
     font-style: italic;
     font-size: 4rem;
     color: #7c826b;
-    <<<<<<< HEAD padding-top: 1.25rem;
-    =======padding-top: 20px;
-    >>>>>>>5003cec2639d8be9174b3ab2eeb63e83cc7634d1
+    padding-top: 1.25rem;
+    padding-top: 20px;
 }
 
 .parent {
@@ -42,7 +42,7 @@ h1 {
 }
 
 img {
-    width: 20em;
+    width: 28rem;
     height: auto;
     margin: 4%;
 }
