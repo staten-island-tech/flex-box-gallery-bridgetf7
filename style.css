@@ -16,8 +16,9 @@ body {
 
 .mainheader {
     font-size: 12rem;
-    padding: 2rem;
-    color: #7c826b;
+    <<<<<<< HEAD padding: 2rem;
+    =======padding: 30px;
+    >>>>>>>5003cec2639d8be9174b3ab2eeb63e83cc7634d1 color: #7c826b;
     font-style: italic;
     letter-spacing: 0.5rem;
 }
@@ -27,8 +28,9 @@ h1 {
     font-style: italic;
     font-size: 4rem;
     color: #7c826b;
-    padding-top: 1.25rem;
-
+    <<<<<<< HEAD padding-top: 1.25rem;
+    =======padding-top: 20px;
+    >>>>>>>5003cec2639d8be9174b3ab2eeb63e83cc7634d1
 }
 
 .parent {
