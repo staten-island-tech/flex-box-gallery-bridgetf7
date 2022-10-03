@@ -24,6 +24,10 @@ body {
     color: #7c826b;
 }
 
+.mainheader:hover {
+    text-shadow: 0.25rem 0.25rem #c2cbb2;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -47,6 +51,7 @@ img {
     margin: 4%;
 }
 
+
 .desc {
     font-size: 2rem;
     margin: 0.2em;
@@ -64,4 +69,11 @@ img {
     margin: 1rem;
     padding: 1.25rem;
     box-shadow: 0.625rem 0.438rem #c2cbb2;
+}
+
+/*hover over effects for posts*/
+.child:hover {
+    transform: scale(1.05);
+    border: 1rem solid #3d4f40;
+    box-shadow: none;
 }
