@@ -16,10 +16,51 @@ body {
 
 .mainheader {
     font-size: 12rem;
-    padding: 30px;
+    padding: 5rem;
     color: #7c826b;
     font-style: italic;
     letter-spacing: 0.5rem;
+    color: #7c826b;
+    animation: slidein .7s ease-in;
+}
+
+.mainheader:hover {
+    text-shadow: 0.25rem 0.25rem #b9c1ad;
+
+
+}
+
+/*keyframe settings, slidein settings*/
+@keyframes slidein {
+    0% {
+        transform: skewX(50deg) translateX(-31.25rem);
+    }
+
+    100% {
+        transform: skewX(0deg);
+    }
+}
+
+/*webkit keyframes helps chrome browser support keyframe settings*/
+@-webkit-keyframes {
+    0% {
+        transform: skewX(50deg) translateX(-31.25rem);
+    }
+
+    100% {
+        transform: skewX(0deg);
+    }
+}
+
+.subheader {
+    font-size: 3rem;
+    margin-top: -2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #7c826b;
+}
+
+.subheader:hover {
+    opacity: 0.7;
 }
 
 h1 {
@@ -27,8 +68,12 @@ h1 {
     font-style: italic;
     font-size: 4rem;
     color: #7c826b;
-    padding-top: 20px;
+    padding-top: 1.25rem;
+    padding-top: 1.25rem;
+}
 
+h1:hover {
+    text-decoration: underline;
 }
 
 .parent {
@@ -40,10 +85,16 @@ h1 {
 }
 
 img {
-    width: 20em;
+    width: 28rem;
     height: auto;
     margin: 4%;
 }
+
+img:hover {
+    box-shadow: 0.625rem 0.438rem #c2cbb2;
+}
+
+
 
 .desc {
     font-size: 2rem;
@@ -53,13 +104,28 @@ img {
 
 .child {
     background-color: white;
-    border: 10px solid #7c826b;
+    border: 0.625rem solid #7c826b;
     border-radius: 5%;
     min-width: 5%;
     max-width: 100%;
-    width: 500px;
-    height: 500px;
-    margin: 15px;
-    padding: 20px;
-    box-shadow: 10px 7px #c2cbb2;
+    width: 50rem;
+    height: 50rem;
+    margin: 2rem;
+    padding: 1.25rem;
+    box-shadow: 0.625rem 0.438rem #c2cbb2;
+}
+
+.child:hover {
+    transform: scale(1.05);
+    border: 1rem solid #3d4f40;
+    box-shadow: none;
+}
+
+/*media queries*/
+
+/*phone 12*/
+@media screen and (max-width:390px) {
+    .subheader {
+        margin: 3rem;
+    }
 }
