@@ -157,21 +157,13 @@ img:hover {
 }
 
 .child:hover {
+    transition-duration: .4s;
     transform: scale(1.05);
     border: 1rem solid #3d4f40;
     box-shadow: none;
 }
 
 /*media queries*/
-
-/*phone 12*/
-@media screen and (max-width:390px) {
-    .subheader {
-        margin: 3rem;
-    }
-
-}
-
 /*ipad*/
 @media screen and (max-width:820px) {
     img {
@@ -183,5 +175,4 @@ img:hover {
         width: 60rem;
         height: 60rem;
     }
-
 }
