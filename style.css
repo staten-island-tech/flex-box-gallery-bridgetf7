@@ -122,7 +122,31 @@ img:hover {
     box-shadow: none;
 }
 
-/*media queries, media queries must be in descening order*/
+/*media queries, media queries must be in descending order*/
+
+/*laptop*/
+/* For 1366 Resolution */
+@media screen and (max-device-width : 1366px) {
+    .child {
+        width: 28rem;
+        height: 28rem;
+        font-size: 0.05rem;
+    }
+
+    img {
+        width: 15rem;
+        margin: 0%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .desc {
+        font-size: 1.3rem;
+    }
+}
+
 /*ipad*/
 @media screen and (max-width:820px) {
     img {
