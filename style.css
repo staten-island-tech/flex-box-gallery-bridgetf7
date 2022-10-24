@@ -26,8 +26,7 @@ body {
 
 .mainheader:hover {
     text-shadow: 0.25rem 0.25rem #b9c1ad;
-
-
+    transition-duration: .2s;
 }
 
 /*keyframe settings, slidein settings*/
@@ -61,22 +60,26 @@ body {
 
 .subheader:hover {
     opacity: 0.7;
+    transition-duration: .1s;
 }
 
-h1 {
+h2 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-size: 4rem;
     color: #7c826b;
     padding-top: 1.25rem;
-    padding-top: 1.25rem;
 }
 
-h1:hover {
+h2:hover {
     text-decoration: underline;
+    transition-duration: .2s;
 }
 
-.parent {
+
+.parent1,
+.parent2,
+.parent3 {
     font-size: 500%;
     flex-wrap: wrap;
     display: flex;
@@ -87,18 +90,17 @@ h1:hover {
 img {
     width: 28rem;
     height: auto;
-    margin: 4%;
+    margin: 2rem;
 }
 
 img:hover {
     box-shadow: 0.625rem 0.438rem #c2cbb2;
+    transition-duration: .2s;
 }
 
-
-
 .desc {
-    font-size: 2rem;
-    margin: 0.2em;
+    font-size: 1.8rem;
+    margin: 0.5em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -116,16 +118,82 @@ img:hover {
 }
 
 .child:hover {
+    transition-duration: .4s;
     transform: scale(1.05);
     border: 1rem solid #3d4f40;
     box-shadow: none;
 }
 
-/*media queries*/
+/*media queries, media queries must be in descending order*/
 
-/*phone 12*/
+/*laptop*/
+/* For 1366 Resolution */
+@media screen and (max-device-width : 1366px) {
+    .child {
+        width: 28rem;
+        height: 28rem;
+        font-size: 0.05rem;
+    }
+
+    img {
+        width: 15rem;
+        margin: 0.4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        padding-top: 0rem;
+    }
+
+    .desc {
+        font-size: 1.3rem;
+    }
+}
+
+/*ipad*/
+@media screen and (max-width:820px) {
+    img {
+        width: 40rem;
+        height: auto;
+        margin: 1rem;
+    }
+
+    .child {
+        width: 60rem;
+        height: 60rem;
+    }
+
+    .desc {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+        padding-top: 0rem;
+    }
+}
+
+/*iphone 12*/
 @media screen and (max-width:390px) {
+    img {
+        width: 26rem;
+        align-items: center;
+        margin: 0.4rem;
+    }
+
+    .child {
+        height: 40rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
     .subheader {
-        margin: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .desc {
+        font-size: 1.5rem;
     }
 }
