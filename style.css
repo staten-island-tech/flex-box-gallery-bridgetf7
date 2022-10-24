@@ -150,7 +150,7 @@ img:hover {
 /*ipad*/
 @media screen and (max-width:820px) {
     img {
-        width: 40rem;
+        width: 38rem;
         height: auto;
         margin: 1rem;
     }
@@ -162,6 +162,7 @@ img:hover {
 
     .desc {
         font-size: 2.2rem;
+        margin: 0.2rem;
     }
 
     h2 {
@@ -191,6 +192,7 @@ img:hover {
 
     .desc {
         font-size: 1.3rem;
+        margin: 0.2rem;
     }
 
     .subheader {
