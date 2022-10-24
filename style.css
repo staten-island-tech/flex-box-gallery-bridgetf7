@@ -77,9 +77,13 @@ h2:hover {
 }
 
 
+<<<<<<< HEAD
 .parent1,
 .parent2,
 .parent3 {
+=======
+.parent {
+>>>>>>> cb93b1e88514172dd09e6d117798a73a366ddbb9
     font-size: 500%;
     flex-wrap: wrap;
     display: flex;
@@ -137,12 +141,19 @@ img:hover {
 
     img {
         width: 15rem;
+<<<<<<< HEAD
         margin: 0.4rem;
+=======
+        margin: 0%;
+>>>>>>> cb93b1e88514172dd09e6d117798a73a366ddbb9
     }
 
     h2 {
         font-size: 2rem;
+<<<<<<< HEAD
         padding-top: 0rem;
+=======
+>>>>>>> cb93b1e88514172dd09e6d117798a73a366ddbb9
     }
 
     .desc {
@@ -155,7 +166,10 @@ img:hover {
     img {
         width: 40rem;
         height: auto;
+<<<<<<< HEAD
         margin: 1rem;
+=======
+>>>>>>> cb93b1e88514172dd09e6d117798a73a366ddbb9
     }
 
     .child {
@@ -164,12 +178,19 @@ img:hover {
     }
 
     .desc {
+<<<<<<< HEAD
         font-size: 2.2rem;
+=======
+        font-size: 2.4rem;
+>>>>>>> cb93b1e88514172dd09e6d117798a73a366ddbb9
     }
 
     h2 {
         font-size: 4rem;
+<<<<<<< HEAD
         padding-top: 0rem;
+=======
+>>>>>>> cb93b1e88514172dd09e6d117798a73a366ddbb9
     }
 }
 
@@ -178,7 +199,10 @@ img:hover {
     img {
         width: 26rem;
         align-items: center;
+<<<<<<< HEAD
         margin: 0.4rem;
+=======
+>>>>>>> cb93b1e88514172dd09e6d117798a73a366ddbb9
     }
 
     .child {
